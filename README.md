@@ -1,1 +1,60 @@
 # Journey-of-Intents
+A Journey of Intents 🗺️
+🚀 Objective
+The goal of this assignment is to master the use of Intents in Android application development using Java. You will build a multi-screen "Choose Your Own Adventure" application where the user's choices dictate the flow of the story. This will require you to create multiple activities, navigate between them using Intents, pass data between activities using Intent Extras, and use an Implicit Intent to interact with an application outside of your own.
+📖 The Scenario
+For this assignment, you will create a "Choose Your Own Adventure" game. You can pick one of the following scenarios to build, or you can create your own unique story with instructor approval. The technical requirements are the same for any story you choose.
+Scenario 1 (Example): The Secret Agent's Escape
+You are a secret agent who must escape an enemy base. Your journey starts in a holding cell. You must navigate through different parts of the base—like the mess hall, the barracks, and the communication center—making choices to avoid guards, find useful gadgets, and locate an exit.
+Goal: Escape the base successfully.
+Example Data to Pass: agentName (String), gadgetsFound (int), hasSecurityPass (boolean).
+Scenario 2 (Option): The Interstellar Explorer
+You are the captain of a spaceship on a mission to explore a new galaxy. Each screen represents a different planet or cosmic anomaly. Your choices will determine your path, what resources you gather, and whether you successfully complete your mission to find a habitable new world.
+Goal: Find a new planet suitable for colonization.
+Example Data to Pass: captainName (String), fuelLevel (int), hasAlienArtifact (boolean).
+Scenario 3 (Option): Quest for the Mystic Amulet
+You are an adventurer in a fantasy world on a quest to find a lost amulet of great power. Your journey begins in a village at the foot of a mountain. You will make choices that lead you through enchanted forests, mysterious caves, and ancient ruins, all while solving riddles and overcoming obstacles.
+Goal: Find the Mystic Amulet.
+Example Data to Pass: adventurerName (String), potionsRemaining (int), hasAncientMap (boolean).
+✅ Core Requirements
+Your application must meet the following criteria, in addition to the detailed technical requirements below:
+Multiple Activities: Your application must contain at least 10 new Activities beyond the initial MainActivity.
+Data Passing with Intent Extras: You must pass data forward every time you navigate to a new activity. The bundle of data should grow or be modified as the story progresses.
+Implicit Intent: At one point in your story, the player must find a clue that directs them to a website for "research." You must implement a button that uses an Implicit Intent with ACTION_VIEW to open a relevant, school-appropriate website in the user's web browser (e.g., https://www.nasa.gov for the space theme).
+User Experience: The application must be intuitive, easy to navigate, and provide a clear story for the user to follow.
+⚙️ Detailed Technical Requirements
+Backend (Java Logic)
+Your Java code must contain at least the following elements distributed throughout your activities:
+12 Conditional Statements: These must include at least 4 if-else if-else blocks and 2 compound conditionals (e.g., using && or ||). These should be used to change the story text or outcomes based on data passed from previous activities.
+1 for loop: Used to process data or perform a repetitive task. For example, you could loop through an ArrayList of inventory items to build a display string.
+1 ArrayList: Used to store a collection of items, such as inventory, clues, or visited locations.
+6 Formatted Strings: Use String.format() or string concatenation to create dynamic text for your TextViews. For example: String message = String.format("Welcome, Agent %s! You have %d gadgets.", agentName, gadget_count);
+Frontend (UI/XML)
+Your UI and resource files must contain the following:
+5 Images: Use ImageView to display at least 5 different pictures that enhance your story. These can be for locations, items, or characters.
+Custom Button Styling: Do not use the default system buttons. Apply custom styles (e.g., background colors, rounded corners, custom text attributes) to your buttons to make them visually appealing.
+Custom Font Styling: Apply custom font styles to your TextViews, including changes to size, color, and font family.
+1 Toast: Use a Toast message at an appropriate moment to provide brief feedback to the user (e.g., "Item added to inventory!").
+💯 Grading Rubric
+This assignment is worth 100 points and will be graded as follows:
+App Functionality (25 points)
+(10) App compiles and runs without crashing.
+(10) All Intents navigate to the correct Activities as intended.
+(5) The story flows logically with clear win/loss states.
+Data Passing & Retrieval (20 points)
+(10) Data is correctly passed between all new activities.
+(10) Data is correctly retrieved and used to affect the state or UI of subsequent activities.
+Backend Logic Requirements (25 points)
+(10) Correct implementation of 12+ conditional statements (including required types).
+(5) Correct implementation and meaningful use of a for loop and ArrayList.
+(5) At least 6 formatted strings are used to create dynamic UI text.
+(5) Implicit Intent correctly launches a web browser with the specified URL.
+Frontend & UI Requirements (30 points)
+(10) At least 10 new, well-structured Activities/Layouts are created.
+(5) At least 5 images are included and displayed appropriately.
+(5) Custom styling is applied to buttons and fonts.
+(5) At least one Toast is used effectively.
+(5) Code is well-commented and uses meaningful naming conventions.
+✅ Submission
+This project will be submitted using version control through GitHub Classroom.
+Along with the GitHub Classroom, you will need to provide a screen recording on Google Classroom of your project working.
