@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#EDE7F6">
+
+    <TextView
+        android:id="@+id/tvArmoryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base Armory"
+        android:textSize="26sp"
+        android:textColor="#512DA8"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_gadget"
+        android:contentDescription="Armory Gadget"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvArmoryStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#311B92"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvArmoryStory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You enter the armory and gear up with a Smoke Bomb for your escape."
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnArmoryToVent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Head to Vent Shaft"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="@drawable/btn_custom"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnArmoryToRoof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Head to Roof Helipad"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="@drawable/btn_accent" />
+
+</LinearLayout>

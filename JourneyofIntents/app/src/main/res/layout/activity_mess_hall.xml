@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#E8F5E9">
+
+    <TextView
+        android:id="@+id/tvMessTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base Mess Hall"
+        android:textSize="26sp"
+        android:textColor="#2E7D32"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_pass"
+        android:contentDescription="Security Pass Image"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvMessStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#1B5E20"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvMessStory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You enter the quiet mess hall and spot an enemy officer's lost Security Pass on a tray."
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnGoArmory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Armory"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="@drawable/btn_custom"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnGoCommCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Comm Center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="@drawable/btn_accent" />
+
+</LinearLayout>

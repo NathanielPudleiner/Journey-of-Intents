@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#E1F5FE">
+
+    <TextView
+        android:id="@+id/tvCommTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Communication Center"
+        android:textSize="26sp"
+        android:textColor="#0288D1"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_gadget"
+        android:contentDescription="Comm Gadget Image"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvCommStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#01579B"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnOpenWebIntel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Web Intel Browser (Implicit Intent)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="@drawable/btn_danger"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnGoLab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Secret Lab"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="@drawable/btn_custom"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnGoArmoryFromComm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Armory"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="@drawable/btn_accent" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#FFF3E0">
+
+    <TextView
+        android:id="@+id/tvBarracksTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guard Barracks"
+        android:textSize="26sp"
+        android:textColor="#E65100"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_agent"
+        android:contentDescription="Barracks Image"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvBarracksStory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#37474F"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnCrawlVent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crawl into Vent"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="@drawable/btn_custom"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnRushComm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rush to Comm Center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="@drawable/btn_accent" />
+
+</LinearLayout>
